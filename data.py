@@ -17,7 +17,7 @@ acceptcookiesbutton.click()
 # // Lame Cookie Stuff ends here..
 
 
-# // In the following few lines we
+# // In the following few lines we will find the element that contains the data about fully vaccinated people, the data we want.
 # /html/body/div[1]/div/div/div[1]/div[2]/div[1]/button[3]
 # identify element with xpath and read text
 vaccinepercent = driver.find_element_by_xpath('/html/body/main/main/article/div[3]/div/div[1]/div[1]/table/tbody/tr[3]/td[2]/span').get_attribute("innerHTML")
